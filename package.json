@@ -1,0 +1,27 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.16",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "@runware/sdk-js": "^1.1.47",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
