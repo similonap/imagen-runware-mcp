@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
@@ -14,7 +16,6 @@ if (!RUNWARE_API) {
 
 const runware = new Runware({ apiKey: RUNWARE_API });
 
-// Create an MCP server
 const server = new McpServer({
     name: 'imagen-runware-server',
     version: '1.0.0'
