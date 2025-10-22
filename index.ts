@@ -68,5 +68,4 @@ server.registerTool(
 (async() => {
     const transport = new StdioServerTransport();
     await server.connect(transport);
-    console.log('MCP Server is running and connected via stdio transport.');
 })();
